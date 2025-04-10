@@ -2,6 +2,8 @@ import Navbar from './components/Navbar'
 import Hero from './sections/Home'
 import Resultados from './sections/Resultados'
 import Testimonios from './sections/Testimonios'
+import Membresias from './sections/Membresias'
+import Programas from './sections/Programas'
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
         <Hero />
         <Resultados />
         <Testimonios />
+        <Membresias />
+        <Programas />
       </main>
     </>
   )
