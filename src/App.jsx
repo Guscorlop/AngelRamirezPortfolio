@@ -4,6 +4,7 @@ import Resultados from './sections/Resultados'
 import Testimonios from './sections/Testimonios'
 import Membresias from './sections/Membresias'
 import Programas from './sections/Programas'
+import SocialSection from './sections/SocialMedia'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Testimonios />
         <Membresias />
         <Programas />
+        <SocialSection />
       </main>
     </>
   )
