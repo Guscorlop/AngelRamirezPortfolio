@@ -3,7 +3,7 @@ export default function Navbar() {
       <header className="bg-red-700 text-white fixed w-full top-0 z-50">
         <nav className="container mx-auto px-4 py-3">
           <ul className="flex flex-wrap justify-center gap-6">
-            {["Home", "Resultados", "Testimonios", "Membresia", "Contactame"].map((item) => (
+            {["Home", "Resultados", "Testimonios", "Membresia", "Programas", "RedesSociales"].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}

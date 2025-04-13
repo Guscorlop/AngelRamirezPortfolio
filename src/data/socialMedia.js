@@ -1,39 +1,46 @@
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaTiktok,
+  FaYoutube,
+  FaXTwitter,
+} from "react-icons/fa6"; // versión moderna de los íconos
+
+import { SiThreads } from "react-icons/si";
 export const socialMedia = [
-    {
-      name: "Instagram",
-      username: "@angel_fit",
-      icon: "/icons/instagram.svg",
-    },
-    {
-      name: "Facebook",
-      username: "Angel Ramirez",
-      icon: "/icons/facebook.svg",
-    },
-    {
-      name: "TikTok",
-      username: "@angel_training",
-      icon: "/icons/tiktok.svg",
-    },
-    {
-      name: "YouTube",
-      username: "Angel Fitness",
-      icon: "/icons/youtube.svg",
-    },
-    {
-      name: "X (Twitter)",
-      username: "@angel_xfit",
-      icon: "/icons/x.svg",
-    },
-    {
-      name: "LinkedIn",
-      username: "Angel Ramirez",
-      icon: "/icons/linkedin.svg",
-    },
-  ];
-  
-  export const socialImages = [
-    "/images/social-1.jpg",
-    "/images/social-2.jpg",
-    "/images/social-3.jpg",
-  ];
-  
+  {
+    name: "Instagram",
+    username: "@anjel19trainer",
+    icon: FaInstagram,
+  },
+  {
+    name: "Facebook",
+    username: "Angel19Ramirez",
+    icon: FaFacebookF,
+  },
+  {
+    name: "TikTok",
+    username: "@anjel19trainer",
+    icon: FaTiktok,
+  },
+  {
+    name: "YouTube",
+    username: "Anjel19Trainer",
+    icon: FaYoutube,
+  },
+  {
+    name: "X (Twitter)",
+    username: "@anjel1216",
+    icon: FaXTwitter,
+  },
+  {
+    name: "Threads",
+    username: "@anjel19trainer",
+    icon: SiThreads,
+  },
+];
+
+export const socialImages = [
+  "src/assets/Images/AnjelTrainer.png",
+
+];

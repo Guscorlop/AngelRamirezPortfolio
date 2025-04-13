@@ -4,7 +4,7 @@ import Resultados from './sections/Resultados'
 import Testimonios from './sections/Testimonios'
 import Membresias from './sections/Membresias'
 import Programas from './sections/Programas'
-import SocialSection from './sections/SocialMedia'
+import RedesSociales from './sections/RedesSociales'
 
 
 function App() {
@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <Navbar/>
-      <main className="pt-[64px]"> {/* para que el navbar fijo no tape el contenido */}
+      <main className=""> {/* para que el navbar fijo no tape el contenido */}
         <Hero />
         <Resultados />
         <Testimonios />
         <Membresias />
         <Programas />
-        <SocialSection />
+        <RedesSociales />
       </main>
     </>
   )

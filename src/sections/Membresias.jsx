@@ -13,8 +13,8 @@ const Membresias = () => {
   return (
     <section
   id="membresia"
-  className="py-12 bg-cover bg-center bg-no-repeat text-white px-4"
-  style={{ backgroundImage: "url('/tu-imagen.jpg')" }}
+  className="py-12 bg-black text-white px-4"
+
 >
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-red-600 border-b-4 inline-block border-red-600 pb-2">
