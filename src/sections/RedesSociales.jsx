@@ -8,15 +8,15 @@ const RedesSociales = () => {
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-10">
-        {socialMedia.map(({ name, username, icon: Icon }, idx) => (
+        {socialMedia.map(({ name, username, icon: Icon, link }, idx) => (
           <div key={idx} className="flex items-center gap-4 justify-center">
             <div className="text-3xl text-red-600">
               <Icon />
             </div>
-            <div className="text-left">
+            <a className="text-left cursor-pointer" href={link} target="_blank" rel="noopener noreferrer">
               <p className="font-bold">{name}</p>
               <p className="text-sm text-gray-300">{username}</p>
-            </div>
+            </a>
           </div>
         ))}
       </div>

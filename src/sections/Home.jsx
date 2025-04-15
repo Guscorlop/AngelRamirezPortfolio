@@ -1,4 +1,4 @@
-import bgImage from "../assets/Images/young-man-training-gym-bodybuilding.jpg";
+import bgImage from "../assets/Images/AnjelTrainer.jpeg";
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Contenido */}
       <div className="relative z-10 bg-black/60 p-6 rounded-lg max-w-xl w-full">
         <h1 className="text-3xl md:text-5xl font-bold text-red-600 mb-4">
-          ANGEL RAMIREZ
+          ANGEL REYES
         </h1>
         <p className="text-lg md:text-xl font-light mb-6">
           Licenciado en entrenamiento deportivo, <br />

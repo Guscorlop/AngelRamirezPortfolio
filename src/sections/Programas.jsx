@@ -10,7 +10,7 @@ const Programas = () => {
       <div className="max-w-6xl mx-auto bg-black bg-opacity-80 p-8 rounded-xl">
         <div className="flex justify-center mb-2">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-red-600 mb-12 border-b-4 border-red-600 pb-2 inline-block">
-            Programas de Entrenamiento
+            Programas de Entrenamiento Online
             </h2>
         </div>
         
